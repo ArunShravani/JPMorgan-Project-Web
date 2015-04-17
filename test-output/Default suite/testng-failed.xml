@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="co.uk.jpmorgan.SmallTest">
+        <methods>
+          <include name="BeforeTestsuit"/>
+          <include name="mobileAppPageTc2"/>
+          <include name="teardownBase"/>
+          <include name="contactTc1"/>
+          <include name="AllUsers"/>
+        </methods>
+      </class> <!-- co.uk.jpmorgan.SmallTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

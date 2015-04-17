@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40366" started-at="2013-09-18T00:35:54Z" finished-at="2013-09-18T00:36:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40366" started-at="2013-09-18T00:35:54Z" finished-at="2013-09-18T00:36:34Z">
+      <class name="co.uk.jpmorgan.SmallTest">
+        <test-method status="PASS" signature="BeforeTestsuit()[pri:0, instance:co.uk.jpmorgan.SmallTest@1112776]" name="BeforeTestsuit" is-config="true" duration-ms="7237" started-at="2013-09-18T01:35:54Z" finished-at="2013-09-18T01:36:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTestsuit -->
+        <test-method status="PASS" signature="setupBase()[pri:0, instance:co.uk.jpmorgan.SmallTest@1112776]" name="setupBase" is-config="true" duration-ms="9278" started-at="2013-09-18T01:36:01Z" finished-at="2013-09-18T01:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBase -->
+        <test-method status="PASS" signature="contactTc1()[pri:0, instance:co.uk.jpmorgan.SmallTest@1112776]" name="contactTc1" duration-ms="4805" started-at="2013-09-18T01:36:10Z" finished-at="2013-09-18T01:36:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactTc1 -->
+        <test-method status="PASS" signature="AllUsers()[pri:0, instance:co.uk.jpmorgan.SmallTest@1112776]" name="AllUsers" is-config="true" duration-ms="1" started-at="2013-09-18T01:36:15Z" finished-at="2013-09-18T01:36:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AllUsers -->
+        <test-method status="PASS" signature="teardownBase(org.testng.ITestResult)[pri:0, instance:co.uk.jpmorgan.SmallTest@1112776]" name="teardownBase" is-config="true" duration-ms="568" started-at="2013-09-18T01:36:15Z" finished-at="2013-09-18T01:36:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contactTc1 status=SUCCESS method=SmallTest.contactTc1()[pri:0, instance:co.uk.jpmorgan.SmallTest@1112776] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBase -->
+        <test-method status="PASS" signature="setupBase()[pri:0, instance:co.uk.jpmorgan.SmallTest@1112776]" name="setupBase" is-config="true" duration-ms="10610" started-at="2013-09-18T01:36:16Z" finished-at="2013-09-18T01:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBase -->
+        <test-method status="PASS" signature="mobileAppPageTc2()[pri:0, instance:co.uk.jpmorgan.SmallTest@1112776]" name="mobileAppPageTc2" duration-ms="3910" started-at="2013-09-18T01:36:26Z" finished-at="2013-09-18T01:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileAppPageTc2 -->
+        <test-method status="PASS" signature="teardownBase(org.testng.ITestResult)[pri:0, instance:co.uk.jpmorgan.SmallTest@1112776]" name="teardownBase" is-config="true" duration-ms="731" started-at="2013-09-18T01:36:30Z" finished-at="2013-09-18T01:36:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mobileAppPageTc2 status=SUCCESS method=SmallTest.mobileAppPageTc2()[pri:0, instance:co.uk.jpmorgan.SmallTest@1112776] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBase -->
+        <test-method status="PASS" signature="AllUsers()[pri:0, instance:co.uk.jpmorgan.SmallTest@1112776]" name="AllUsers" is-config="true" duration-ms="0" started-at="2013-09-18T01:36:30Z" finished-at="2013-09-18T01:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AllUsers -->
+        <test-method status="PASS" signature="afterTestSuit()[pri:0, instance:co.uk.jpmorgan.SmallTest@1112776]" name="afterTestSuit" is-config="true" duration-ms="3170" started-at="2013-09-18T01:36:31Z" finished-at="2013-09-18T01:36:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestSuit -->
+      </class> <!-- co.uk.jpmorgan.SmallTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
